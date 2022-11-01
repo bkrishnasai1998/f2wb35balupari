@@ -4,7 +4,7 @@ block content
   h1= title
   p Welcome to #{title}
   p My second express server
-  button(type="button", class="btn btn-secondary", onclick="doBump()") Press Me for the contents
+  button(type="button", class="btn btn-primary", onclick="doBump()") Press Me for the content  
 
   div(id="bump") Bump the count
   script.
@@ -15,3 +15,5 @@ block content
     bump+=1;
     document.getElementById("bump").innerHTML="Count "+count+" Bump "+bump;
    }
+
+  a(href="onion") Onion page
